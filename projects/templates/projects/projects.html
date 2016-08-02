@@ -1,0 +1,12 @@
+{% extends 'personal/header.html' %}
+{% block content %}
+	<h2>Projects</h2>
+	{% for post in object_list %}
+		<ul>
+			<li>
+				<a href="/projects/{{post.id}}">{{post.title}}</a>
+				<br><h5>{{post.small_desc}}</h5>		
+			</li>
+		</ul>
+	{% endfor %}
+{% endblock %}

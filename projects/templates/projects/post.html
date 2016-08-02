@@ -1,0 +1,14 @@
+{% extends 'personal/header.html'%}
+
+{% block content%}
+<p><b>{{post.title}}</b></p>
+<p>{{post.desc|linebreaks}}</p>
+<p>{{tech_used|linebreaks}}
+<h6>{{post.date}}</h6>
+{% if post.tryit %}
+<p><b><a href='{{post.tryit}}'>Try it!</a></b></p>
+{% endif %}
+{% if post.source_code %}
+<p><a href='{{post.source_code}}'>(Source code)</a></p>
+{% endif%}
+{% endblock %}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About me</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'personal/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'personal/css/app.css'%}">
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="{% static 'personal/js/typed/js/typed.js' %}"></script>
+	<script src="{% static 'personal/js/app.js' %}"></script>
+
+
+
+	<style type="text/css">
+	html,
+	body{
+		height: 100%
+	}
+	</style>
+	
+</head>	
+<body>
+	
+	<div class="container-fluid" style="min-height:954px">
+		
+		<div class="row" id="row1">
+			
+			<div class="col-md-12">
+				<br>
+				<center>
+					{% if typed %}
+					<h1><span class="element1"></span><span class="element2"></span></h1>
+					{% else %}
+					<h1>Coder, Amatuer Poet!</h1>
+					{% endif%}
+
+				</center>
+			</div><!--col-md-12 -->
+		</div><!-- row -->
+	
+		<div class="row" id="row2">
+			<div class="col-md-2">
+				<br>
+				<center>
+				<div class="well bs-sidebar" id="sidebar" style="background-color:#fff;width:50%">	
+				<ul class="nav nav-pills nav-stacked">
+  					<li><a href="/">Home</a></li>
+  					<li><a href="/projects/">Projects</a></li>
+  					<li><a href="/poems/">Poems</a></li>
+  					<li><a href="/blog/">Blog</a></li>
+  					<li><a href="/contact/">Contact</a></li>
+				</ul>
+				</div>
+				</center>
+			</div><!-- col-md-2 -->
+			<div class="col-md-8">
+				<br>
+				
+				{% block content%}
+				{% endblock%}
+				
+			</div><!--col-md-8-->
+			<div id = "profile" class="col-md-2">
+				<br>
+
+				<center>
+				<h2>About me!</h2>
+				<img id ="myimg" src="{% static 'personal/img/me.jpg' %}" alt="face" class="img-responsive">
+				<p>I'm a computer science graduate who likes to code and 
+				also write poems as a hobby.<a href="">Read more-></a></p>
+				</center>
+			</div>
+		</div><!--row -->
+	</div><!-- container-fluid -->
+	<footer>
+		<div class="container-fluid" style="margin-left:15px">
+		<p><a href="/contact/">Contact</a> | <a href="">Linkedin</a> | <a href="https://github.com/nagarajbhat">Github</a> | <a href="https://allpoetry.com/Nagaraj_Bhat">Allpoetry</a></p>
+		</div><!--container-fluid-->
+	</footer>
+</body>
+</html>

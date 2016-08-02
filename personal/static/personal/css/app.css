@@ -1,0 +1,28 @@
+body{
+	background-image:url('../img/bg45.png');
+	background-color: #f6f6f6;
+	color:#f1f1d1;
+	/*font-family: 'Tangerine', serif;*/
+	font-family: 'Reem Kufi', sans-serif;
+	/*font-family: 'Lobster', cursive;*/
+}
+
+p{
+	font-size: 21px;
+}
+
+a{
+	font-size: 21px;
+}
+
+#row2{
+	margin-top: 100px;
+}
+#myimg{
+	border-radius: 50%;
+	max-height:180px;
+}
+
+#profile{
+	border-left,border-top:2px #fff solid;
+}
