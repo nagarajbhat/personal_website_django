@@ -49,7 +49,7 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-settings/local.py
+mysite/settings/local.py
 
 .env
 mysite/setting_old.py
