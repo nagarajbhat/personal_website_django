@@ -12,7 +12,7 @@
 # For the full list of settings and their values, see
 # https://docs.djangoproject.com/en/1.9/ref/settings/
 # """
-# import os
+import os
 from django.conf import settings    
 
 
@@ -21,7 +21,7 @@ TEMPLATE_DEBUG = True
 
 DATABASES = settings.DATABASES
 
-# # ALLOWED_HOSTS = ['nagarajbhat.herokuapp.com']
+# ALLOWED_HOSTS = ['nagarajbhat.herokuapp.com']
 ALLOWED_HOSTS = ['*']
 
 
