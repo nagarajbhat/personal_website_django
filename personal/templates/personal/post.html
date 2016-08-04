@@ -1,0 +1,11 @@
+{% extends "personal/header.html" %}
+{% block content %}
+<h2>About me!</h2>
+	<!-- {% for c in aboutme %}
+		<p>{{c | safe}}</p>
+	{% endfor %} -->
+
+	<p>{{post.body1| safe | linebreaks}}</p>
+	<p>{{post.body2| safe | linebreaks}}</p>
+
+{% endblock %}
