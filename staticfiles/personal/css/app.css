@@ -21,7 +21,7 @@ a{
 }
 
 #row2{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 #myimg{
 	border-radius: 50%;
@@ -30,4 +30,5 @@ a{
 
 #profile{
 	/*border-top:2px #000 solid;*/
+	margin-top: 30px;	
 }
