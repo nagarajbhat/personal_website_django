@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+
+
+
 """
 Django settings for mysite project.
 
@@ -23,9 +28,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = 'xrb8k$=e)mo+p!_v25kb=o8xr^nm5cw-m=lth-jg0%+p99bof2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -128,3 +133,13 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
+
+
+
+
+
+
+
+
