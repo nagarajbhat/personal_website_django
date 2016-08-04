@@ -52,3 +52,4 @@ docs/_build/
 mysite/settings/local.py
 
 .env
+mysite/setting_old.py
