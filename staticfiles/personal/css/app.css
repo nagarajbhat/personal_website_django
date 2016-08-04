@@ -1,7 +1,7 @@
 body{
-	background-image:url('../img/bg90.jpg');
-	background-color: #f6f6f6;
-	color:#f1f1d1;
+	background-image:url('../img/bg20.jpg');
+	background-color: #000;
+	/*color:#f1f1d1;*/
 	/*color:#fff;*/
 	/*color:#d4ff00;*/
 
@@ -16,6 +16,7 @@ p{
 
 a{
 	font-size: 21px;
+	/*color: #fff;*/
 }
 
 #row2{
@@ -27,5 +28,5 @@ a{
 }
 
 #profile{
-	border-left,border-top:2px #fff solid;
+	/*border-top:2px #000 solid;*/
 }
