@@ -3,22 +3,20 @@
 <head>
 	<title>Nagaraj Bhat</title>
 	{% load staticfiles %}
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="{% static 'personal/css/app.css'%}">
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="{% static 'personal/js/typed/js/typed.js' %}"></script>
 	<script src="{% static 'personal/js/app.js' %}"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-	<style type="text/css">
-	html,
-	body{
-		height: 100%
-	}
-	</style>
 	
 </head>	
 <body>
@@ -59,6 +57,7 @@
 				<br>
 				
 				{% block content%}
+
 				{% endblock%}
 				
 			</div><!--col-md-8-->
@@ -66,17 +65,23 @@
 				<br>
 
 				<center>
-				<h2>About me!</h2>
-				<img id ="myimg" src="{% static 'personal/img/me.jpg' %}" alt="face" class="img-responsive">
-				<p>I'm a computer science graduate who likes to code and 
-				also write poems as a hobby.<a href="">Read more-></a></p>
+
+					<h2>About me!</h2>
+					
+					<img id ="myimg" src="{% static 'personal/img/me.jpg' %}" alt="face" class="img-responsive">
+				
+					<p>I'm a computer science graduate who likes to code and 
+					also write poems!<a href="/aboutme/1">Read more-></a></p>
+						
 				</center>
 			</div>
 		</div><!--row -->
 	</div><!-- container-fluid -->
 	<footer>
 		<div class="container-fluid" style="margin-left:15px">
-		<p><a href="/contact/">Contact</a> | <a href="">Linkedin</a> | <a href="https://github.com/nagarajbhat">Github</a> | <a href="https://allpoetry.com/Nagaraj_Bhat">Allpoetry</a></p>
+		<p><a href="/contact/">Contact</a> | <a href="www.linkedin.com/in/
+nagaraj-bhat-b9341496
+">Linkedin</a> | <a href="https://github.com/nagarajbhat">Github</a> | <a href="https://allpoetry.com/Nagaraj_Bhat">Allpoetry</a></p>
 		</div><!--container-fluid-->
 	</footer>
 </body>
