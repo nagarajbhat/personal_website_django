@@ -50,6 +50,7 @@ coverage.xml
 docs/_build/
 
 
+mysite/settings/local.py
 mysite/settings/secret.py
 .env
 mysite/setting_old.py
