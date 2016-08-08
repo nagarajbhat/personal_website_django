@@ -5,7 +5,7 @@ $(function(){
             cursorChar: ""
         });
         $(".element2").typed({
-            strings: ["^1500, Poet","^500, Amatuer Poet"],
+            strings: ["^1500, Poet","^500, Amateur Poet"],
             typeSpeed: 100,
             cursorChar: "!"
         });
